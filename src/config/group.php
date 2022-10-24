@@ -35,15 +35,15 @@ return [
         'morph-category'     => 0,
         'morph-comment'      => 0,
         'morph-image'        => 1,
+        'morph-link'         => 0,
         'morph-registration' => 0,
         'morph-tag'          => 0,
-        'morph-link'         => 0,
         'newsletter'         => 0,
         'payment'            => 0,
         'role'               => 0,
         'rule'               => 0,
         'rule-hit'           => 0,
-        'site'               => 0
+        'site-mall'          => 0,
     ],
 
     /*
