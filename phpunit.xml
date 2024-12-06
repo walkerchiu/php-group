@@ -1,0 +1,18 @@
+<phpunit>
+
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="GroupTest.php">./tests/Entities</directory>
+            <directory suffix="GroupLangTest.php">./tests/Entities</directory>
+            <directory suffix="GroupFormRequestTest.php">./tests/Forms</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="GroupRepositoryTest.php">./tests/Repositories</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+    </php>
+
+</phpunit>
